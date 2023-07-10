@@ -13,9 +13,10 @@ Here's a list of what's new and fixed:
 - A brand new refreshing UI experience with a consistent and bright color theme
 - Data insights to 5 new players!
 - Added a datatable and sankey diagram for further data insights on the live dashboard
-- Removed redundant code logic that took up unneccessary memory when the user is engaged with the application
+- Removed redundant code logic that used up unneccessary memory when the user is engaged with the application
 - Fixed bug showing dates incorrectly on a scatter point's tooltip
 - Dynamic SQL queries, previously all data filtering was done through pandas after querying the entire database
+- Restructured a monolithic codebase comprising a single 2500+ line .py file into a modularized and industry-standard format
 
 ## Feel free to visit the live website!
 
