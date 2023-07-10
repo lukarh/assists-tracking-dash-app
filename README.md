@@ -44,6 +44,8 @@ To test the app locally, run the following command:
 
 Deploy the App to Heroku, use the [tutorial that outlines the instructions here](https://drive.google.com/file/d/1kowjMGKN6rbxh9n-5q1cP3BkcZ2yOAvo/view).
 
+**NOTE: This Public Repository does not have access to the SQL database key, so you can't access the data to test the web-application locally properly.**
+
 ## Overview of Changes
 
 #### Live Dashboard for Player Reports | A Before and After
@@ -60,5 +62,3 @@ The Interactive Dashboard builds a player report showing their directional tende
 ##### Before (In Version 1.0.0)
 
 ![dashboard-ui](https://user-images.githubusercontent.com/65103724/163692815-85a7d1e1-f601-417f-801c-277c355b471f.png)
-
-**NOTE: This Repository does not have access to SQL database key**
