@@ -1,0 +1,80 @@
+/* restyle radio items */
+.radio-group .form-check {
+    padding-left: 0;
+}
+  
+.radio-group .btn-group > .form-check:not(:last-child) > .btn {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+  
+.radio-group .btn-group > .form-check:not(:first-child) > .btn {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    margin-left: -1px;
+}
+  
+.form-check {
+     width: 100%;
+}
+  
+.Select.dcc_control.is-open {
+    max-height: 100%;
+    overflow-y: hidden;
+}
+  
+.Select.dcc_control {
+    overflow-y: hidden;
+}
+  
+.DateInput_input {
+    font-size: 16px
+}
+  
+.DateInput_input_1 {
+    font-size: 16px
+}
+  
+div.dropdown-menu {
+    width: 100%;
+}
+
+.dashboard-range-slider .rc-slider-handle {
+    background-color: white;
+    border-color: orange;
+}
+
+/* .dashboard-range-slider .rc-slider-rail {
+    background-color: #E9E9E9;
+} */
+
+.dashboard-range-slider .rc-slider-track {
+    background-color: orange;
+}
+
+.dashboard-range-slider .rc-slider-mark-text {
+    color: black;
+}
+
+.dashboard-range-slider .rc-slider-dot {
+    /* background-color: orange; */
+    border-color: orange;
+}
+
+.dashboard-range-slider .rc-slider-dot .rc-slider-dot-selected {
+    /* background-color: orange; */
+    border-color: orange;
+}
+
+.dropdown-toggle {
+    border-color: black;
+}
+  
+.dropdown-toggle:hover {
+    border-color: none;
+}
+
+.dropdown-toggle:hover {
+    border-color: transparent !important;
+    box-shadow: none !important;
+}
