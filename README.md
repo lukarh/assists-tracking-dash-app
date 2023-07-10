@@ -1,4 +1,4 @@
-# assist-tracking-app-v2
+# assist-tracking-dash-app-v2
 
 ## Motivation
 
