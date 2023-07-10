@@ -16,6 +16,10 @@ Here's a list of what's new and fixed:
 - Removed redundant code logic that took up unneccessary memory when the user is engaged with the application
 - Fixed bug showing dates incorrectly on a scatter point's tooltip
 
+## Feel free to visit the live website!
+
+[Click here to view the website](https://tracking-dashboard-app.herokuapp.com/dashboard)
+
 ## Development
 
 - Code: Python
@@ -56,7 +60,3 @@ The Interactive Dashboard builds a player report showing their directional tende
 ![dashboard-ui](https://user-images.githubusercontent.com/65103724/163692815-85a7d1e1-f601-417f-801c-277c355b471f.png)
 
 **NOTE: This Repository does not have access to SQL database key**
-
-## Feel free to visit the website!
-
-[Click here to view the website](https://tracking-dashboard-app.herokuapp.com/dashboard)
