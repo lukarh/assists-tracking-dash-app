@@ -32,14 +32,14 @@ Deploy the App to Heroku, use the [tutorial that outlines the instructions here]
 
 The Interactive Dashboard builds a player report showing their directional tendencies, hotspots on the floor, flow diagrams of outcomes, and preferred timing for passes during assist plays based on 5000+ manually tracked data points that are stored in a PostgreSQL database. Users can apply multiple filters such as opponent team, date, shot type created, shot clock, minute left in the period, etc. and the dashboard will dynamically update accordingly.
 
-##### Before
+##### After (In Version 2.0.0)
 
 ![image](https://github.com/lukarh/assist-tracking-app-v2/assets/65103724/d53aeb8b-a1e9-45d2-b838-1452c700db67)
 
 ![image](https://github.com/lukarh/assist-tracking-app-v2/assets/65103724/1dc8c168-feaf-4be8-a18d-52937237d76d)
 
 
-##### After
+##### Before (In Version 1.0.0)
 
 ![dashboard-ui](https://user-images.githubusercontent.com/65103724/163692815-85a7d1e1-f601-417f-801c-277c355b471f.png)
 
