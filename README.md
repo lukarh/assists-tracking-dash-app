@@ -44,6 +44,8 @@ To test the app locally, run the following command:
 
 Deploy the App to Heroku, use the [tutorial that outlines the instructions here](https://drive.google.com/file/d/1kowjMGKN6rbxh9n-5q1cP3BkcZ2yOAvo/view).
 
+## Overview of Changes
+
 #### Live Dashboard for Player Reports | A Before and After
 
 The Interactive Dashboard builds a player report showing their directional tendencies, hotspots on the floor, flow diagrams of outcomes, and preferred timing for passes during assist plays based on 5000+ manually tracked data points that are stored in a PostgreSQL database. Users can apply multiple filters such as opponent team, date, shot type created, shot clock, minute left in the period, etc. and the dashboard will dynamically update accordingly.
