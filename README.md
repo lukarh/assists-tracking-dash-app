@@ -8,6 +8,13 @@ In the public realm, our access to spatial data is limited to shot coordinates. 
 
 Version 2.0.0 of the Assist Tracking Web Application built on the Plotly Dash Framework brings in a new and refreshing UI experience with newly tracked data points for 5 players during the 2021-22 NBA Season, providing data insights to now 13 total players! The web application has also reformed its codebase to conform itself to the industry standard so that it's scalable in the future and easy to work with. In the previous version, which can be found [here](https://github.com/lukarh/assist-tracking-app), the 2500+ lines of code was written in a singular .py file, which made it incredibly hard to navigate, edit, and develop- however, version 2.0.0 organizes the code in separate folders and files for various scenes and components used across the web-application, making it incredibly easier to work with. In the future, if time permits or if inspiration sparks, new features, data, and pages will be considered!
 
+Here's a list of what's new and fixed:
+- Application load time has been reduced significantly
+- A brand new refreshing UI experience with a consistent and bright color theme
+- Data insights to 5 new players!
+- Added a datatable and sankey diagram for further data insights on the live dashboard
+- Removed redundant code logic that took up unneccessary memory when the user is engaged with the application
+
 ## Development
 
 - Code: Python
