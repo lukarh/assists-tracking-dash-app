@@ -52,7 +52,9 @@ app = dash.Dash(__name__,
                             'content': 'width=device-width, initial-scale=1.0'}],
                 )
 app.server.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-app.server.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("SQLALCHEMY_DATABASE_URI")
+# app.server.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("SQLALCHEMY_DATABASE_URI")
+app.server.config["SQLALCHEMY_DATABASE_URI"] = os.environ["HEROKU_POSTGRESQL_ORANGE_URL"]
+
 
 db = SQLAlchemy(app.server)
 
