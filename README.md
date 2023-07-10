@@ -20,7 +20,7 @@ Here's a list of what's new and fixed:
 
 - Code: Python
 - Framework: Dash (A Python Framework)
-- Libraries: Flask, SQLAlchemy, Plotly, Pandas, SQLite3, NumPy, Dash, Numpy, Dash Bootstrap, Dash Authentication
+- Libraries: SQLAlchemy, Plotly, Pandas, NumPy, Dash, Numpy, Dash Bootstrap Components, Dash Core Components
 - Database: PostgreSQL via Heroku
 - Deployment: Heroku
 
