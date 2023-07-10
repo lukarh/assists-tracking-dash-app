@@ -14,6 +14,7 @@ Here's a list of what's new and fixed:
 - Data insights to 5 new players!
 - Added a datatable and sankey diagram for further data insights on the live dashboard
 - Removed redundant code logic that took up unneccessary memory when the user is engaged with the application
+- Fixed bug showing dates incorrectly on a scatter point's tooltip
 
 ## Development
 
