@@ -4,6 +4,10 @@
 
 In the public realm, our access to spatial data is limited to shot coordinates. But what about spatial data looking at pass coordinates on assists? Passing is such an integral part of the game and [it’s what makes the game so beautiful to watch](https://www.youtube.com/watch?v=NsBGF1fjXvY&ab_channel=EvinGualberto). So how can we visualize passing location data? Can we create any interesting player insights using this data the way shot charts do with shot coordinate data?
 
+## What's New? Future plans?
+
+Version 2.0.0 of the Assist Tracking Web Application built on the Plotly Dash Framework brings in a new and refreshing UI experience with newly tracked data points for 5 players during the 2021-22 NBA Season, providing data insights to now 13 total players! The web application has also reformed its codebase to conform itself to the industry standard so that it's scalable in the future and easy to work with in the future. In the previous version, which can be found [here](https://github.com/lukarh/assist-tracking-app), the 2500+ lines of code was written in a singular .py file, which made it incredibly hard to navigate, edit, and develop- however, version 2.0.0 organizes the code in separate folders and files for various scenes and components used across the web-application, making it easier to navigate and figure out where to edit the code. In the future, if time permits or if inspiration sparks, new features, data, and pages will be considered!
+
 ## Development
 
 - Code: Python
