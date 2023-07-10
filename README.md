@@ -15,6 +15,7 @@ Here's a list of what's new and fixed:
 - Added a datatable and sankey diagram for further data insights on the live dashboard
 - Removed redundant code logic that took up unneccessary memory when the user is engaged with the application
 - Fixed bug showing dates incorrectly on a scatter point's tooltip
+- Dynamic SQL queries, previously all data filtering was done through pandas after querying the entire database
 
 ## Feel free to visit the live website!
 
