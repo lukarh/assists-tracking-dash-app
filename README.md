@@ -56,6 +56,6 @@ The Interactive Dashboard builds a player report showing their directional tende
 
 **NOTE: This Repository does not have access to SQL database key**
 
-### Feel free to visit the website!
+## Feel free to visit the website!
 
 [Click here to view the website](https://tracking-dashboard-app.herokuapp.com/dashboard)
