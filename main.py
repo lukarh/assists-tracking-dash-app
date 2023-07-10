@@ -7,7 +7,6 @@ import plotly.graph_objects as go
 from itertools import product
 from datetime import datetime
 
-from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 
 import os
@@ -44,19 +43,19 @@ directions = ['N', 'NEN', 'NE', 'ENE', 'E', 'ESE', 'SE', 'SES',
 
 load_dotenv()
 
-server = Flask(__name__)
 app = dash.Dash(__name__,
                 external_stylesheets=[dbc.themes.UNITED],
                 suppress_callback_exceptions=True,
                 meta_tags=[{'name': 'viewport',
                             'content': 'width=device-width, initial-scale=1.0'}],
                 )
-app.server.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
-# app.server.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("SQLALCHEMY_DATABASE_URI")
-app.server.config["SQLALCHEMY_DATABASE_URI"] = os.environ["HEROKU_POSTGRESQL_ORANGE_URL"]
+server = app.server
 
+server.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = False
+# server.config["SQLALCHEMY_DATABASE_URI"] = os.getenv("SQLALCHEMY_DATABASE_URI")
+server.config["SQLALCHEMY_DATABASE_URI"] = os.environ["HEROKU_POSTGRESQL_ORANGE_URL"]
 
-db = SQLAlchemy(app.server)
+db = SQLAlchemy(server)
 
 #############################################################################################
 
