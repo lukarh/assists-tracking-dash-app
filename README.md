@@ -34,7 +34,8 @@ Deploy the App to Heroku, use the [tutorial that outlines the instructions here]
 
 ![image](https://github.com/lukarh/assist-tracking-app-v2/assets/65103724/d53aeb8b-a1e9-45d2-b838-1452c700db67)
 
-![image](https://github.com/lukarh/assist-tracking-app-v2/assets/65103724/e4b8defd-11d4-4971-b571-36efbff9d158)
+![image](https://github.com/lukarh/assist-tracking-app-v2/assets/65103724/1dc8c168-feaf-4be8-a18d-52937237d76d)
+
 
 ##### After
 
